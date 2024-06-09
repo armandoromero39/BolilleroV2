@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/Bolillero.css"  />
+        <title>Bolillero ISFD Alvear</title>
+
+    
+
+    </head>
+    <body>
+    <div class="header">
+        <img id="imagen" align="bottom" src="img/bolillero.png" height="15%" width="15%">
+        <span>Bolillero ISFD "Alvear"</span>
+    </div>
+
+    <div class="unidades">
+     <span> Unidades del Programa </span>
+     <br>
+     <input class="unidad" type="text" name="unidad" id="unidad" maxlength="2" required>
+    </div>
+    
+
+    <div class="bolillas">
+    <span> Bolillas a Extraer </span> 
+    <br>
+    <input class="bolilla" type="text" name="bolilla" id="bolilla" maxlength="1" required>
+    </div>
+
+    <div class="button-container">
+        <button id="button-action" class="button">Extraer Bolillas</button>
+    </div>
+
+    <div class = "lista-bolillas" id="lista-bolillas" align ="center"></div>
+
+    
+
+    <div class="button-container">
+        <button class="button button-filter">Borrar Bolillas</button> <br>
+        <button class="button button-filter">Borrar Todo</button><br>
+        <button class="button button-filter" >Salir</button><br>
+    </div>
+
+
+    <div class="footer" align="center">
+        <a href="https://isfdalvear-bue.infd.edu.ar/sitio/"><img  class= "imagen2" id="imagen2" align="center" src="img/logo.png" height="10%" width="10%" > </img></a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            
+            <div class="social-icons">
+                <a href="https://www.facebook.com/superior.alvear" class="social-icon"><i  class="fa-brands fa-square-facebook icon"></i></a>
+                <a href="https://www.instagram.com/isfd.alvear/" class="social-icon"><i class="fa-brands fa-square-instagram icon"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-square-x-twitter icon"></i></a>
+            </div>
+            <div class="creditos2">
+                <br>Derechos de Autor
+                <br>Romero Armando 2024
+                <br>Bolillero V2.0
+            </div>  
+        </div>
+    </footer>
+    <script src="cordova.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/Bolillero.js"></script>
+    </body>
+   
+</html>
